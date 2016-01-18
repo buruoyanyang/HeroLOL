@@ -15,6 +15,8 @@
 		3A68D7D71C4CE7D100FAE1DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A68D7D51C4CE7D100FAE1DB /* LaunchScreen.storyboard */; };
 		3A68D7E21C4CE7D100FAE1DB /* HeroLOLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A68D7E11C4CE7D100FAE1DB /* HeroLOLTests.m */; };
 		3A68D7ED1C4CE7D100FAE1DB /* HeroLOLUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A68D7EC1C4CE7D100FAE1DB /* HeroLOLUITests.m */; };
+		3A68D7FB1C4CE7F000FAE1DB /* heros.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A68D7FA1C4CE7F000FAE1DB /* heros.plist */; };
+		3A68D7FE1C4CE81000FAE1DB /* Heros.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A68D7FD1C4CE81000FAE1DB /* Heros.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		3A68D7E81C4CE7D100FAE1DB /* HeroLOLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroLOLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A68D7EC1C4CE7D100FAE1DB /* HeroLOLUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroLOLUITests.m; sourceTree = "<group>"; };
 		3A68D7EE1C4CE7D100FAE1DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A68D7FA1C4CE7F000FAE1DB /* heros.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = heros.plist; sourceTree = "<group>"; };
+		3A68D7FC1C4CE81000FAE1DB /* Heros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heros.h; sourceTree = "<group>"; };
+		3A68D7FD1C4CE81000FAE1DB /* Heros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Heros.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +110,13 @@
 				3A68D7CB1C4CE7D100FAE1DB /* AppDelegate.m */,
 				3A68D7CD1C4CE7D100FAE1DB /* ViewController.h */,
 				3A68D7CE1C4CE7D100FAE1DB /* ViewController.m */,
+				3A68D7FC1C4CE81000FAE1DB /* Heros.h */,
+				3A68D7FD1C4CE81000FAE1DB /* Heros.m */,
 				3A68D7D01C4CE7D100FAE1DB /* Main.storyboard */,
 				3A68D7D31C4CE7D100FAE1DB /* Assets.xcassets */,
 				3A68D7D51C4CE7D100FAE1DB /* LaunchScreen.storyboard */,
 				3A68D7D81C4CE7D100FAE1DB /* Info.plist */,
+				3A68D7FA1C4CE7F000FAE1DB /* heros.plist */,
 				3A68D7C71C4CE7D100FAE1DB /* Supporting Files */,
 			);
 			path = HeroLOL;
@@ -245,6 +253,7 @@
 			files = (
 				3A68D7D71C4CE7D100FAE1DB /* LaunchScreen.storyboard in Resources */,
 				3A68D7D41C4CE7D100FAE1DB /* Assets.xcassets in Resources */,
+				3A68D7FB1C4CE7F000FAE1DB /* heros.plist in Resources */,
 				3A68D7D21C4CE7D100FAE1DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +282,7 @@
 				3A68D7CF1C4CE7D100FAE1DB /* ViewController.m in Sources */,
 				3A68D7CC1C4CE7D100FAE1DB /* AppDelegate.m in Sources */,
 				3A68D7C91C4CE7D100FAE1DB /* main.m in Sources */,
+				3A68D7FE1C4CE81000FAE1DB /* Heros.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
